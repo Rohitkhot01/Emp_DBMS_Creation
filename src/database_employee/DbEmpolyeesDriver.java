@@ -25,7 +25,7 @@ public class DbEmpolyeesDriver {
 		int choice;
 		mainLoop:
 		do {
-			System.out.println();
+			
 			System.out.println();
 			System.out.println("-----------------------------------------");
 			System.out.println("         WELCOME TO THE DATABASE         ");
