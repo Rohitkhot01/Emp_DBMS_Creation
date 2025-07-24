@@ -25,7 +25,7 @@ public class DbEmpolyeesDriver {
 		int choice;
 		mainLoop:
 		do {
-			
+			System.out.println();
 			System.out.println();
 			System.out.println("-----------------------------------------");
 			System.out.println("         WELCOME TO THE DATABASE         ");
@@ -71,7 +71,7 @@ public class DbEmpolyeesDriver {
 			}
 			
 		}while(choice != 5);
-		
+		sc.close();
 		System.out.println("Thank you for the interaction");
 		
 	}

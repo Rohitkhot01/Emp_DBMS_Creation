@@ -69,7 +69,9 @@ public class DbEmpolyees {
 	{
 		if(connection)
 		{
-			if(count>0)
+			if(emp!=null)
+			{
+				if(count>0)
 			{
 				for(int i = 0;i<count;i++)
 				{
@@ -80,6 +82,11 @@ public class DbEmpolyees {
 			else
 			{
 				System.out.println("No Data into the Database!!!");
+			}
+			}
+			else{
+				System.out.println("No data in database");
+				return;
 			}
 		}
 		else
