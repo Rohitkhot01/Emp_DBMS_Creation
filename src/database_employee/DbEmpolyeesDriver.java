@@ -24,13 +24,12 @@ public class DbEmpolyeesDriver {
 		db.bruteOff();
 		int choice;
 		mainLoop:
-		do {
-			System.out.println();
+		do{
 			System.out.println();
 			System.out.println("-----------------------------------------");
 			System.out.println("         WELCOME TO THE DATABASE         ");
 			System.out.println("-----------------------------------------");
-			
+
 			System.out.println();
 			System.out.println("Choose Options: ");
 			System.out.println("1. LOGIN ");
@@ -69,10 +68,10 @@ public class DbEmpolyeesDriver {
 			default:
 				System.out.println("ENTER A VALID OPTION!!!");
 			}
-			
+
 		}while(choice != 5);
-		
+
 		System.out.println("Thank you for the interaction");
-		
+
 	}
 }
